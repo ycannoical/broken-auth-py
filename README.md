@@ -9,9 +9,9 @@ sudo service docker start
 
 **Building the docker image**
 
-sudo docker build -t <<name>> . 
+sudo docker build -t <name> . 
 
 **Running the docker image locally**
 
-sudo docker run -p 5000:5000 <<name>>
+sudo docker run -p 5000:5000 <name>
 
